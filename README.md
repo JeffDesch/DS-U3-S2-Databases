@@ -1,3 +1,1 @@
-On the implementation side, it's not that different working with Mongo or SQL servers via python scripts; both use similar structure for retrieving entries and inserting new data.
-The important distiction lies in how much easier it is in the MongoDB instance to insert layered or hierarchical data in the form of nested documents instead of multiple SQL-style tables linked by common keys. For collections that are intuitively associated groups (like the rpg characters) this saves a lot of effort otherwise spent planning out a database schema.
-The caveat with the more freeform MongoDB approach is that is pushes the responsibility for keeping track of the document schema (and making sure there are no errors when inserting data!) onto the script developer instead of the database. Typos become a major issue when inserting new data, potentially stranding entries outside of search terms.
+# DS-U3-S2-Databases
